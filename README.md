@@ -1,9 +1,12 @@
 # lyrics_crawler
 爬取网易云音乐指定歌手的所有歌词，进行词频统计  
 
+## 使用
 接收一或多个歌手ID作为命令行参数  
 歌词存入output文件夹中，命名格式为“专辑名_歌曲名.txt”  
 专辑及所含歌曲列表以json格式存储，命名格式为“list{歌手ID}.json”  
+‘go build ’
+‘./lyrics_crawler 2116 2117 //分别为陈奕迅与侧田’
 
 
 ### fetcher.go
